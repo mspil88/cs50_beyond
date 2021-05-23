@@ -1,0 +1,137 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    font-size: 14px;
+    list-style-type: none;
+    float: right;    
+}
+
+header ul li {
+    
+    margin-top: 1.0rem;
+    margin-right: 1.1rem;
+    
+
+    
+    
+}
+
+.link1 {
+    position: absolute;
+    top: 12px;
+    left: 30px;
+}
+
+.link2 {
+    position: absolute;
+    top: 12px;
+    left: 90px;
+}
+
+header ul button {
+    margin-top: 0.5rem;
+   
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    width:100px;
+}
+
+
+
+header ul li a {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: arial,sans-serif;;
+    
+}
+
+.main_page {
+    position: absolute;
+    height: 200px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    z-index: 15;
+    top: 30%;
+    left: 50%;
+
+
+}
+.google_logo img {
+    width:300px;
+    height: auto;
+}
+
+.form_search {
+    width: 600px;
+    border-radius: 24px;
+    background-color: #fff;
+    border: 1px solid #dfe1e3;
+    box-shadow: none;
+    border-color:  rgba(204, 198, 198, 0.932);
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    
+    height: 44px;
+    z-index: 3;
+    padding-left: 45px;
+}
+
+.form_search {
+    background-image: url(magnifying_glass.png), url(microphone.png);
+    background-repeat: no-repeat;
+    background-position: 15px 12px, 565px 9px;
+}
+
+
+
+.buttons {
+    align-items: center;
+    padding-top: 18px;
+}
+
+button {
+    border-width: thin;
+    height: 36px;
+    border-color:  #f8f9fa;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+}
+
+button:hover {
+    border-width: thin;
+    border-color: grey;
+}
+
+
+.btn-search {
+    background-color: lightcyan;
+    
+}
+
+.btn_signin {
+    border: none;
+}
+
+.btn_signin:hover {
+    border:none;
+    background-color: #4285f4;
+}
