@@ -14,7 +14,10 @@ header ul {
 }
 
 
-
+.header-menu-img {
+    margin: 3px;
+    padding: 0;
+}
 
 header ul li {
     
