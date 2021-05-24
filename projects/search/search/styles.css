@@ -93,6 +93,11 @@ header ul li a {
     background-position: 15px 12px, 565px 9px;
 }
 
+#form_img {
+    background-image: url(magnifying_glass.png), url(camera.png), url(microphone.png), url(blue_magnifying_glass.png);
+    background-repeat: no-repeat;
+    background-position: 15px 12px, 480px 9px, 525px 9px, 565px 12px;
+}
 
 
 .buttons {
