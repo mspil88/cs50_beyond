@@ -261,7 +261,10 @@ border:none;
     
 }
 
-  
+.dropup #sea-btn:hover {
+    text-decoration: underline;
+    
+}
 
 /* Change color of dropdown links on hover */
 .dropup-content a:hover {
