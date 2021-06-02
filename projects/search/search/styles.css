@@ -148,6 +148,11 @@ button:hover {
 
 .btn_signin {
     border: none;
+    border-radius: 0 !important;
+    width: 80px !important;
+    height: 35px !important;
+    font-weight: bold;
+
 }
 
 .btn_signin:hover {
